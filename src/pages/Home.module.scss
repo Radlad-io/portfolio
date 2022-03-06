@@ -1,0 +1,23 @@
+.container {
+  h1 {
+    font-family: "tt_hoves";
+    font-size: 4rem;
+    color: white;
+  }
+}
+
+.flex {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.flexLeft {
+  width: 100%;
+}
+
+.flexRight {
+  width: 100%;
+  background-color: black;
+}

@@ -1,0 +1,41 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "tt_hoves";
+  src: url("/fonts/tt_hoves_light-webfont.woff2") format("woff2"),
+    url("/fonts/tt_hoves_light-webfont.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tt_hoves";
+  src: url("/fonts/tt_hoves_regular-webfont.woff2") format("woff2"),
+    url("/fonts/tt_hoves_regular-webfont.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "tt_hoves";
+  src: url("/fonts/tt_hoves_medium-webfont.woff2") format("woff2"),
+    url("/fonts/tt_hoves_medium-webfont.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+}
